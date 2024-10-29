@@ -123,7 +123,7 @@ $lang['currency_add_heading']          = 'Lisää uusi valuutta';
 
 # Department
 $lang['departments']                 = 'Osastot';
-$lang['department']                  = 'osasto';
+$lang['department']                  = 'Osasto';
 $lang['new_department']              = 'Luo uusi osasto';
 $lang['department_lowercase']        = 'osasto';
 $lang['department_name']             = 'Osaston nimi';
@@ -161,7 +161,7 @@ $lang['home_upcoming_events_next_week']            = 'Tulevat tapahtumat ensi vi
 $lang['home_event_added_by']                       = 'Tapahtuman lisääjä';
 $lang['home_public_event']                         = 'Julkinen tapahtuma';
 $lang['home_weekly_payment_records']               = 'Viikkomaksutiedot';
-$lang['home_weekend_ticket_opening_statistics']    = 'Viikkotikettien avaustilastot';
+$lang['home_weekend_ticket_opening_statistics']    = 'Viikkopalvelupyyntöjen avaustilastot';
 # Newsfeed
 $lang['whats_on_your_mind']                                 = 'Jaa dokumentteja tai ideoita..';
 $lang['new_post']                                           = 'Luo uusi viesti';
@@ -303,11 +303,11 @@ $lang['predefined_reply_add_edit_content'] = 'Vastauksen sisältö';
 
 # Ticket Priorities
 $lang['new_ticket_priority']           = 'Uusi prioritetti';
-$lang['ticket_priorities']             = 'Tikettien prioriteetit';
-$lang['ticket_priority']               = 'Tiketin prioriteetti';
-$lang['ticket_priority_lowercase']     = 'tiketin prioriteetti';
-$lang['no_ticket_priorities_found']    = 'Tikettiprioriteetteja ei löytynyt';
-$lang['ticket_priority_dt_name']       = 'Tiketin prioriteetin nimi';
+$lang['ticket_priorities']             = 'Palvelupyyntöjen prioriteetit';
+$lang['ticket_priority']               = 'Palvelupyynnön prioriteetti';
+$lang['ticket_priority_lowercase']     = 'Palvelupyynnön prioriteetti';
+$lang['no_ticket_priorities_found']    = 'Palvelupyyntöjen prioriteetteja ei löytynyt';
+$lang['ticket_priority_dt_name']       = 'Palvelupyynnön prioriteetin nimi';
 $lang['ticket_priority_add_edit_name'] = 'Prioriteetin nimi';
 
 # Reports
@@ -397,7 +397,7 @@ $lang['settings_newsfeed_max_file_upload_post']                    = 'Suurin sal
 $lang['settings_reminders_contracts']                              = 'Muistutus sopimuksen voimassaolosta ennen';
 $lang['settings_reminders_contracts_tooltip']                      = 'Vanhentumisilmoitus päivissä';
 $lang['settings_tickets_use_services']                             = 'Käytä palveluita';
-$lang['settings_tickets_max_attachments']                          = 'Suurin tikettien liitetiedosto';
+$lang['settings_tickets_max_attachments']                          = 'Palvelupyynnön liitetiedostostojen määrä';
 $lang['settings_tickets_allow_departments_access']                 = 'Anna henkilöstölle pääsy vain tiketeille, jotka kuuluvat henkilöstöosastoille';
 $lang['settings_tickets_allowed_file_extensions']                  = 'Sallitut liitetiedostotunnisteet';
 $lang['settings_sales_general']                                    = 'Yleinen';
@@ -538,26 +538,26 @@ $lang['acs_roles']                             = 'Roolit';
 $lang['acs_settings']                          = 'Asetukset';
 
 # Tickets
-$lang['new_ticket']                                          = 'Avaa uusi tiketti';
-$lang['tickets']                                             = 'Tiketit';
-$lang['ticket']                                              = 'Tiketti';
-$lang['ticket_lowercase']                                    = 'tiketti';
-$lang['support_tickets']                                     = 'Tukitiketit';
-$lang['support_ticket']                                      = 'Tukitiketti';
+$lang['new_ticket']                                          = 'Avaa uusi palvelupyyntö';
+$lang['tickets']                                             = 'Palvelupyynnöt';
+$lang['ticket']                                              = 'Palvelupyyntö';
+$lang['ticket_lowercase']                                    = 'palvelupyyntö';
+$lang['support_tickets']                                     = 'Palvelupyynnöt';
+$lang['support_ticket']                                      = 'Palvelupyyntö';
 $lang['ticket_settings_to']                                  = 'Nimi';
 $lang['ticket_settings_email']                               = 'Sähköpostiosoite';
 $lang['ticket_settings_departments']                         = 'Osasto';
 $lang['ticket_settings_service']                             = 'Palvelu';
 $lang['ticket_settings_priority']                            = 'Prioriteetti';
 $lang['ticket_settings_subject']                             = 'Aihe';
-$lang['ticket_settings_assign_to']                           = 'Määritä tiketti (oletus on nykyinen käyttäjä)';
-$lang['ticket_add_body']                                     = 'Tiketin sisältö';
+$lang['ticket_settings_assign_to']                           = 'Määritä palvelupyyntö (oletus on nykyinen käyttäjä)';
+$lang['ticket_add_body']                                     = 'Palvelupyynnön sisältö';
 $lang['ticket_add_attachments']                              = 'Liitteet';
 $lang['ticket_no_reply_yet']                                 = 'Ei vastausta vielä';
-$lang['new_ticket_added_successfully']                       = 'Tiketti #%s lisättiin onnistuneesti';
-$lang['replied_to_ticket_successfully']                      = 'Vastasi tikettiin #%s onnistuneesti';
-$lang['ticket_settings_updated_successfully']                = 'Tikettiasetukset päivitetty onnistuneesti';
-$lang['ticket_settings_updated_successfully_and_reassigned'] = 'Tikettiasetukset päivitetty onnistuneesti - jaettu osastolle %s';
+$lang['new_ticket_added_successfully']                       = 'Palvelupyyntö #%s lisättiin onnistuneesti';
+$lang['replied_to_ticket_successfully']                      = 'Vastasi palvelupyyntöön #%s onnistuneesti';
+$lang['ticket_settings_updated_successfully']                = 'Palvelupyyntöjen asetukset päivitetty onnistuneesti';
+$lang['ticket_settings_updated_successfully_and_reassigned'] = 'Palvelupyynnön asetukset päivitetty onnistuneesti - jaettu osastolle %s';
 $lang['ticket_dt_subject']                                   = 'Aihe';
 $lang['ticket_dt_department']                                = 'Osasto';
 $lang['ticket_dt_service']                                   = 'Palvelu';
@@ -567,27 +567,27 @@ $lang['ticket_dt_priority']                                  = 'Prioriteetti';
 $lang['ticket_dt_last_reply']                                = 'Viimeisin vastaus';
 $lang['ticket_single_add_reply']                             = 'Lisää vastaus';
 $lang['ticket_single_add_note']                              = 'Lisää merkintä';
-$lang['ticket_single_other_user_tickets']                    = 'Muut Tiketit';
+$lang['ticket_single_other_user_tickets']                    = 'Muut palvelupyynnöt';
 $lang['ticket_single_settings']                              = 'Asetukset';
 $lang['ticket_single_priority']                              = 'Prioriteetti: %s';
 $lang['ticket_single_last_reply']                            = 'Viimeisin vastaus: %s';
 $lang['ticket_single_ticket_note_by']                        = 'Tiketin merkintä %s';
 $lang['ticket_single_note_added']                            = 'Merkintä lisätty: %s';
 $lang['ticket_single_change_status']                         = 'Muuta tilaa';
-$lang['ticket_single_assign_to_me_on_update']                = 'Osoita tämä tiketti minulle automaattisesti';
+$lang['ticket_single_assign_to_me_on_update']                = 'Osoita tämä palvelupyyntö minulle automaattisesti';
 $lang['ticket_single_insert_predefined_reply']               = 'Lisää ennalta määritetty vastaus';
 $lang['ticket_single_insert_knowledge_base_link']            = 'Lisää tietokannan linkki';
 $lang['ticket_single_attachments']                           = 'Liitteet';
 $lang['ticket_single_add_response']                          = 'Lisää vastaus';
 $lang['ticket_single_note_heading']                          = 'Merkintä';
-$lang['ticket_single_add_note']                              = 'Lisää Merkintä';
+$lang['ticket_single_add_note']                              = 'Lisää merkintä';
 $lang['ticket_settings_none_assigned']                       = 'Ei mitään';
 $lang['ticket_status_changed_successfully']                  = 'Tiketin tila muuttunut';
 $lang['ticket_status_changed_fail']                          = 'Ongelma tiketin tilan muuttamisessa';
 $lang['ticket_staff_string']                                 = 'Ylläpito';
 $lang['ticket_client_string']                                = 'Asiakas';
 $lang['ticket_posted']                                       = 'Lähettäjä: %s';
-$lang['ticket_access_by_department_denied']                  = 'Sinulla ei ole pääsyä tähän tikettiin. Tämä tiketti kuuluu osastoon, jota et ole osoitettu.';
+$lang['ticket_access_by_department_denied']                  = 'Sinulla ei ole pääsyä tähän palvelupyyntöön. Tämä palvelupyyntö kuuluu osastoon, jota et ole osoitettu.';
 
 # Staff
 $lang['new_staff']                                     = 'Luo uusi henkilökuntalainen';
@@ -791,17 +791,17 @@ $lang['clients_article_only_1_vote_today']         = 'Voit äänestää vain ker
 $lang['clients_article_voted_thanks_for_feedback'] = 'Kiitos palautteestasi';
 
 # Tickets
-$lang['clients_ticket_open_subject']               = 'Luo uusi tiketti';
+$lang['clients_ticket_open_subject']               = 'Luo uusi palvelupyyntö';
 $lang['clients_ticket_open_departments']           = 'Osasto';
-$lang['clients_tickets_heading']                   = 'Tukitiketit';
+$lang['clients_tickets_heading']                   = 'Palvelupyynnöt';
 $lang['clients_ticket_open_service']               = 'Palvelu';
 $lang['clients_ticket_open_priority']              = 'Prioritetti';
 $lang['clients_ticket_open_body']                  = 'Tiketin sisältö';
 $lang['clients_ticket_attachments']                = 'Liitteet';
-$lang['clients_single_ticket_string']              = 'Tiketti';
+$lang['clients_single_ticket_string']              = 'Palvelupyyntö';
 $lang['clients_single_ticket_replied']             = 'Vastasi: %s';
 $lang['clients_single_ticket_information_heading'] = 'Tiketin tiedot';
-$lang['clients_tickets_dt_number']                 = 'Tiketti #';
+$lang['clients_tickets_dt_number']                 = 'Palvelupyyntö #';
 $lang['clients_tickets_dt_subject']                = 'Aihe';
 $lang['clients_tickets_dt_department']             = 'Osasto';
 $lang['clients_tickets_dt_service']                = 'Palvelu';
@@ -812,7 +812,7 @@ $lang['clients_ticket_single_submitted']           = 'Lähetetty: %s';
 $lang['clients_ticket_single_status']              = 'Tila:';
 $lang['clients_ticket_single_priority']            = 'Prioriteetti: %s';
 $lang['clients_ticket_single_add_reply_btn']       = 'Lisää vastaus';
-$lang['clients_ticket_single_add_reply_heading']   = 'Lisää vastaus tähän tikettiin';
+$lang['clients_ticket_single_add_reply_heading']   = 'Lisää vastaus tähän palvelupyyntöön';
 
 # Login
 $lang['clients_login_heading_no_register'] = 'Kirjaudu sisään, ole hyvä';
@@ -909,7 +909,7 @@ $lang['clients_successfully_registered']           = 'Kiitos rekisteröitymisest
 $lang['clients_account_created_but_not_logged_in'] = 'Tilisi on luotu, mutta et ole kirjautunut järjestelmään automaattisesti. Yritä kirjautua sisään';
 
 # Tickets
-$lang['clients_tickets_heading'] = 'Tukitiketit';
+$lang['clients_tickets_heading'] = 'Palvelupyynnöt';
 
 # Payments
 $lang['payment_for_invoice'] = 'Laskun maksu';
@@ -1127,7 +1127,7 @@ $lang['custom_field_add_edit_active']          = 'Aktiivinen';
 $lang['custom_field_add_edit_disabled']        = 'Poistettu käytöstä';
 
 # Ticket replies
-$lang['ticket_reply'] = 'Tiketti vastaus';
+$lang['ticket_reply'] = 'Palvelupyynnön vastaus';
 
 # Admin Customizer Sidebar
 $lang['asc_custom_fields'] = 'Muokatut kentät';
@@ -1522,7 +1522,7 @@ $lang['bulk_export_include_tag_help']  = 'eq. Original or Copy. The tag will be 
 # Version 1.0.7
 ## Customers - portal
 $lang['clients_nav_proposals'] = 'Ehdotukset';
-$lang['clients_nav_support']   = 'Tuki';
+$lang['clients_nav_support']   = 'Palvelupyynnöt';
 
 # General
 $lang['more']            = 'Lisää';
@@ -1537,7 +1537,7 @@ $lang['customer_permission_invoice']  = 'Laskut';
 $lang['customer_permission_estimate'] = 'Arvio';
 $lang['customer_permission_proposal'] = 'Ehdotukset';
 $lang['customer_permission_contract'] = 'Sopimus';
-$lang['customer_permission_support']  = 'Tuki';
+$lang['customer_permission_support']  = 'Palvelupyynnöt';
 
 #Tasks
 $lang['task_related_to'] = 'Liittyen';
@@ -1570,8 +1570,8 @@ $lang['bulk_export_pdf_proposals'] = 'Ehdotukset';
 # Invoices
 $lang['delete_invoice'] = 'Poista';
 $lang['items']          = 'Tuotteet';
-$lang['support']        = 'Tuki';
-$lang['new_ticket']     = 'Luo uusi tiketti';
+$lang['support']        = 'Palvelupyynnöt';
+$lang['new_ticket']     = 'Luo uusi palvelupyyntö';
 
 # Reminders
 $lang['calendar_lead_reminder']  = 'Liidi muistututs';
@@ -1629,7 +1629,7 @@ $lang['proposal_phone']                         = 'Puhelin';
 $lang['proposal_email']                         = 'Sähköposti';
 $lang['proposal_date_created']                  = 'Päivämäärä jolloin luotu';
 $lang['proposal_open_till']                     = 'Avoin vielä';
-$lang['proposal_status_open']                   = 'Avoin';
+$lang['proposal_status_open']                   = 'Avoinna';
 $lang['proposal_status_accepted']               = 'Ehdotus Hyväksytty';
 $lang['proposal_status_declined']               = 'Ehdotus Hylätty';
 $lang['proposal_status_sent']                   = 'Lähetetty';
@@ -2026,10 +2026,10 @@ $lang['project_invoice_timesheet_end_time']                  = 'Päättymisaika:
 $lang['project_invoice_timesheet_total_logged_time']         = 'Kirjattu aika: %s';
 $lang['project_view_as_client']                              = 'Näytä projekti asiakkaana';
 $lang['project_mark_all_tasks_as_completed']                 = 'Merkitse kaikki tehtävät suoritetuiksi ja lopeta kaikki ajastimet (projektin jäsenille ei lähetetä ilmoituksia)';
-$lang['project_not_started_status_tasks_timers_found']       = 'Projektille löydettiin tehtäväajastimet, mutta projektin tila ei ole käynnistynyt. Suositellaan muuttamaan projektin tilaksi käynnissä oleva';
+$lang['project_not_started_status_tasks_timers_found']       = 'Projektille löydettiin tehtäväajastimet, mutta projektin tila ei ole käynnistynyt. Suositellaan muuttamaan projektin tilaksi työn alla olevaksi';
 $lang['project_status']                                      = 'Tila';
 $lang['project_status_1']                                    = 'Ei alkaneet';
-$lang['project_status_2']                                    = 'Käynnissä';
+$lang['project_status_2']                                    = 'Työn alla';
 $lang['project_status_3']                                    = 'Odottaa';
 $lang['project_status_4']                                    = 'Valmis';
 $lang['project_file_dateadded']                              = 'Latauspäivämäärä';
@@ -2264,10 +2264,10 @@ $lang['invoice_reminders']                       = 'Muistutukset';
 $lang['estimate_notes']                          = 'Merkinnät';
 $lang['estimate_add_note']                       = 'Lisää merkintä';
 $lang['dropdown_non_selected_tex']               = 'Mitään ei ole valittu';
-$lang['auto_close_ticket_after']                 = 'Automaattisesti sulje tiketti (tuntia)';
+$lang['auto_close_ticket_after']                 = 'Automaattisesti sulje palvelupyyntö (tuntia)';
 $lang['event_description']                       = 'Kuvaus';
 $lang['delete_event']                            = 'Poista';
-$lang['not_new_ticket_created']                  = 'Uusi tiketti avattiin osastollasi - %s';
+$lang['not_new_ticket_created']                  = 'Uusi palvelupyyntö avattiin osastollasi - %s';
 $lang['receive_notification_on_new_ticket']      = 'Vastaanota ilmoitus uudesta tiketistä "avattu"';
 $lang['receive_notification_on_new_ticket_help'] = 'Kaikki tikketiosastolle kuuluvat henkilökunnan jäsenet saavat ilmoituksen uuden tiketin avaamisesta';
 $lang['event_updated']                           = 'Tapahtuma päivitetty onnistuneesti';
@@ -2341,7 +2341,7 @@ $lang['client_password_changed']             = 'Salasanasi on vaihdettu';
 $lang['total_leads_deleted']                              = 'Yhteensä liidejä poistettu: %s';
 $lang['total_clients_deleted']                            = 'Yhteensä asiakkaita poistettu: %s';
 $lang['confirm_action_prompt']                            = 'Haluatko varmasti suorittaa tämän toiminnon?';
-$lang['mass_delete']                                      = 'Massa poista';
+$lang['mass_delete']                                      = 'Massapoista';
 $lang['email_protocol']                                   = 'Sähköpostiprotokolla';
 $lang['add_edit_members']                                 = 'Lisää/muokkaa jäseniä';
 $lang['project_overview_logged_hours']                    = 'Kirjattuja tunteja:';
@@ -2363,7 +2363,7 @@ $lang['proposals_sort_datecreated']                       = 'Päivämäärä luo
 $lang['proposals_sort_proposal_date']                     = 'Ehdotuksen päivämäärä';
 $lang['is_not_staff_member']                              = 'Ei toimihenkilö';
 $lang['lead_created']                                     = 'Luotu';
-$lang['access_tickets_to_none_staff_members']             = 'Salli muiden kuin henkilöstön jäsenten pääsy tiketteihin';
+$lang['access_tickets_to_none_staff_members']             = 'Salli muiden kuin henkilöstön jäsenten pääsy palvelupyyntöihin';
 $lang['project_expenses']                                 = 'Kulut';
 $lang['expense_currency']                                 = 'Valuutta';
 $lang['currency_valid_code_help']                         = 'Varmista, että syötät voimassa olevan valuutan ISO-koodin.';
@@ -2507,10 +2507,10 @@ $lang['item_description_placeholder']           = 'Kuvaus';
 $lang['item_long_description_placeholder']      = 'Pitkä kuvaus';
 $lang['item_quantity_placeholder']              = 'Määrä';
 $lang['item_rate_placeholder']                  = 'Arvo';
-$lang['tickets_summary']                        = 'Tikettien yhteenveto';
+$lang['tickets_summary']                        = 'Palvelupyyntöjen yhteenveto';
 $lang['tasks_list_priority']                    = 'Prioriteetti';
-$lang['ticket_status_db_2']                     = 'Käynnissä';
-$lang['ticket_status_db_1']                     = 'Avoin';
+$lang['ticket_status_db_2']                     = 'Työn alla';
+$lang['ticket_status_db_1']                     = 'Avoinna';
 $lang['ticket_status_db_3']                     = 'Vastattu';
 $lang['ticket_status_db_4']                     = 'Odottaa';
 $lang['ticket_status_db_5']                     = 'Suljettu';
@@ -2621,7 +2621,7 @@ $lang['invoice_recurring_weeks']  = $lang['expense_recurring_weeks'];
 $lang['document_direction']                                 = 'Dokumentin suunta';
 $lang['notify_project_members_status_change']               = 'Ilmoita projektin jäsenille, että tila on muuttunut';
 $lang['not_project_status_updated']                         = 'Projektin tila päivitetty %s :sta %s';
-$lang['ticket_not_found']                                   = 'Tikettiä ei löytynyt';
+$lang['ticket_not_found']                                   = 'Palvelupyyntöä ei löytynyt';
 $lang['project_not_found']                                  = 'Projektia ei löytynyt';
 $lang['export_project_data']                                = 'Vie projektitiedot';
 $lang['total_project_members']                              = 'Projektin jäseniä yhteensä';
@@ -2634,13 +2634,13 @@ $lang['staff_total_comments_on_tasks']                      = 'Kommentit tehtäv
 $lang['project_members_overview']                           = 'Projektin jäsenten yleiskatsaus';
 $lang['project_milestones_overview']                        = 'Yhteenveto tavoitteista';
 $lang['total_tasks_in_milestones']                          = 'Määrättyjä tehtäviä yhteensä';
-$lang['total_task_members_assigned']                        = 'Nimitettyjä jäseniä yhteensä';
+$lang['total_task_members_assigned']                        = 'Käsiteltyjä jäseniä yhteensä';
 $lang['total_task_members_followers']                       = 'Seuraajia yhteensä';
 $lang['total_milestones']                                   = 'Yhteensä tavoitteita';
 $lang['total_project_worked_days']                          = 'Työpäiviä yhteensä';
 $lang['finance_overview']                                   = 'Yleiskatsaus rahoitukseen';
 $lang['project_custom_fields']                              = 'Muokatut kentät';
-$lang['total_tickets_related_to_project']                   = 'Projektiin linkitettyjen tikettien kokonaismäärä';
+$lang['total_tickets_related_to_project']                   = 'Projektiin linkitettyjen palvelupyyntöjen kokonaismäärä';
 $lang['projects_total_invoices_created']                    = 'Luotuja laskuja yhteensä';
 $lang['do_not_send_invoice_payment_email_template_contact'] = 'Älä lähetä laskutettua sähköpostiviestiä asiakaskontakteihin';
 $lang['no_preview_available_for_file']                      = 'Tälle tiedostolle ei ole esikatselua saatavilla.';
@@ -2743,7 +2743,7 @@ $lang['task_status']                                 = 'Tila';
 $lang['task_status_1']                               = 'Ei alkaneet';
 $lang['task_status_2']                               = 'Odottaa palautetta';
 $lang['task_status_3']                               = 'Testissä';
-$lang['task_status_4']                               = 'Käynnissä';
+$lang['task_status_4']                               = 'Työn alla';
 $lang['task_status_5']                               = 'Valmis';
 $lang['task_mark_as']                                = 'Merkkaa %s';
 $lang['task_marked_as_success']                      = 'Tehtävä merkattu %s onnistuneesti';
@@ -2966,7 +2966,7 @@ $lang['last_month']                                      = 'Viime kuukausi';
 $lang['no_description_project']                          = 'Ei kuvausta tälle projektille';
 $lang['sales_string']                                    = 'Myynti';
 $lang['no_project_members']                              = 'Ei jäseniä tässä projektissa';
-$lang['search_by_tags']                                  = 'Käytä # + -tunnusta hakeaksesi tunnisteiden perusteella';
+$lang['search_by_tags']                                  = 'Etsi tunnisteiden mukaan';
 $lang['project_status_5']                                = 'Peruttu';
 
 # Version 1.7.0
@@ -3061,14 +3061,14 @@ $lang['view_account_statement']                              = 'Näytä tiliote'
 $lang['text_not_recommended_for_servers_limited_resources']  = 'Ei suositella, jos palvelimella on rajoitetut resurssit. Esim. jaettu hostaus';
 $lang['tasks_bull_actions_assign_notice']                    = 'Jos tehtävä on linkitetty projektiin ja henkilöstö, jolle määrität tehtävän, ei ole projektin jäsen, tämä henkilöstö lisätään automaattisesti jäseneksi.';
 $lang['company_information']                                 = 'Yrityksen tai Yhdistyksen tiedot';
-$lang['ticket_form']                                         = 'Tiketti henkilöltä';
+$lang['ticket_form']                                         = 'Palvelupyyntö henkilöltä';
 $lang['ticket_form_subject']                                 = 'Aihe';
 $lang['ticket_form_name']                                    = 'Sinun nimesi';
 $lang['ticket_form_email']                                   = 'Sähköpostiosoite';
 $lang['ticket_form_department']                              = 'Osasto';
 $lang['ticket_form_message']                                 = 'Viesti';
 $lang['ticket_form_priority']                                = 'Prioriteetti';
-$lang['ticket_form_service']                                 = 'Palvelu';
+$lang['ticket_form_service']                                 = 'Palvelu(t)';
 $lang['ticket_form_submit']                                  = 'Lähetä';
 $lang['ticket_form_attachments']                             = 'Liitteet';
 $lang['success_submit_msg']                                  = 'Kiitos yhteydenotostasi. Saamme takaisin pikapuoliin.';
@@ -3076,7 +3076,7 @@ $lang['vault_entry_share_on_projects']                       = 'Jaa tämä holvi
 $lang['project_shared_vault_entry_login_details']            = 'Tarkastele asiakassivun kirjautumistietoja';
 $lang['iso_code']                                            = 'ISO Code';
 $lang['estimates_not_invoiced']                              = 'Ei vielä laskutettu';
-$lang['show_on_ticket_form']                                 = 'Näytä tikettilomakkeessa';
+$lang['show_on_ticket_form']                                 = 'Näytä palvelupyyntö lomakkeessa';
 $lang['cancel_upload']                                       = 'Peruuta lähetys';
 $lang['show_table_export_button']                            = 'Näytä taulukon vientipainike';
 $lang['show_table_export_all']                               = 'Kaikille henkilökunnan jäsenille';
@@ -3117,7 +3117,7 @@ $lang['private']                                       = 'Yksityinen';
 $lang['task_created_at']                               = 'Luotu %s';
 $lang['hide_notified_reminders_from_calendar']         = 'Piilota ilmoitetut muistutukset kalenterista';
 $lang['last_active']                                   = 'Viimeksi aktiivinen';
-$lang['open_ticket']                                   = 'Avaa tiketti';
+$lang['open_ticket']                                   = 'Luo palvelupyyntö';
 $lang['task_add_description']                          = 'Lisää kuvaus';
 $lang['project_setting_create_tasks']                  = 'luoda tehtäviä';
 $lang['project_setting_edit_tasks']                    = 'muokata tehtäviä (vain kontaktista luodut tehtävät)';
@@ -3152,8 +3152,8 @@ $lang['payment_gateway_payu_money_salt']         = 'PayU Money Salt';
 $lang['settings_paymentmethod_description']      = 'Gateway Dashbord Payment Description';
 
 # Version 1.9.3
-$lang['default_ticket_reply_status']          = 'Default status selected when replying to ticket';
-$lang['ticket_add_response_and_back_to_list'] = 'Return to ticket list after response is submitted';
+$lang['default_ticket_reply_status']          = 'Oletustila valittuna, kun vastataan palvelupyyntöön';
+$lang['ticket_add_response_and_back_to_list'] = 'Palaa palvelupyyntöjen listalle vastauksen lähettämisen jälkeen';
 
 # Version 1.9.4
 $lang['default_task_status']                               = 'Default status when new task is created';
@@ -3208,7 +3208,7 @@ $lang['show_shipping_on_credit_note']                            = 'Show shippin
 $lang['credit_note_number_decrement_on_delete']                  = 'Decrement credit note number on delete.';
 $lang['credit_note_number_decrement_on_delete_help']             = 'Number will be decremented only if is last credit note created.';
 $lang['credit_note_status']                                      = 'Tila';
-$lang['credit_note_status_open']                                 = 'Avoin';
+$lang['credit_note_status_open']                                 = 'Avoinna';
 $lang['credit_note_status_closed']                               = 'Suljettu';
 $lang['credit_note_status_void']                                 = 'Mitätön';
 $lang['credit_note_mark_as_open']                                = 'Merkkaa avoimeksi';
@@ -3279,7 +3279,7 @@ $lang['credit_note_table_amount_heading']   = $lang['invoice_table_amount_headin
 $lang['credit_notes_list_all']              = $lang['invoices_list_all'];
 
 # Version 1.9.7
-$lang['ticket_assigned']                          = 'Nimitetty';
+$lang['ticket_assigned']                          = 'Käsittelijä';
 $lang['dashboard_options']                        = 'Hallintapaneelin asetukset';
 $lang['reset_dashboard']                          = 'Nollaa hallintapaneeli';
 $lang['widgets']                                  = 'Widgetit';
@@ -3332,8 +3332,8 @@ $lang['allow_non_admin_members_to_import_leads']   = 'Salli muiden kuin järjest
 $lang['project_hide_tasks_settings_info']          = 'Tasks are excluded from the main tasks table for this project, you can view the project tasks only in this area.';
 
 # Version 1.9.9
-$lang['ticket_create_no_contact']            = 'Tiketti ilman kontaktia';
-$lang['ticket_create_to_contact']            = 'Tiketti yhteystietoihin';
+$lang['ticket_create_no_contact']            = 'Palvelupyyntö ilman kontaktia';
+$lang['ticket_create_to_contact']            = 'Palvelupyyntöstä yhteystietoihin';
 $lang['showing_billable_tasks_from_project'] = 'Näytetään laskutettavat tehtävät projektista';
 $lang['no_billable_tasks_found']             = 'Laskutettavia tehtäviä ei löytynyt';
 $lang['help_leads_permission_view']          = 'Jos tätä lupaa ei tarkisteta, toimihenkilö voi tarkastella vain liidejä mihin on osoitettu, työntekijän luomia liidejä ja julkisiksi merkittyjä liidejä';
@@ -3496,9 +3496,9 @@ $lang['contract_number']                                = 'Sopimusnumero';
 $lang['project_changing_status_recurring_tasks_notice'] = 'Olet muuttamassa tilaa arvoon {0}, kaikki toistuvat tehtävät peruutetaan';
 $lang['not_contract_signed']                            = 'Asiakas on allekirjoittanut sopimuksen %s';
 $lang['the_number_sign']                                = '#';
-$lang['not_new_ticket_reply']                           = 'Asiakas vastasi tikettiin - %s';
-$lang['receive_notification_on_new_ticket_replies']     = 'Vastaanota ilmoitus, kun asiakas vastaa tikettiin';
-$lang['receive_notification_on_new_ticket_reply_help']  = 'Kaikki tikettiosastolle kuuluvat henkilökunnan jäsenet saavat ilmoituksen, kun asiakas vastaa tikettiin';
+$lang['not_new_ticket_reply']                           = 'Asiakas vastasi palvelupyyntöön - %s';
+$lang['receive_notification_on_new_ticket_replies']     = 'Vastaanota ilmoitus, kun asiakas vastaa palvelupyyntöön';
+$lang['receive_notification_on_new_ticket_reply_help']  = 'Kaikki palvelupyynnöille kuuluvat henkilökunnan jäsenet saavat ilmoituksen, kun asiakas vastaa palvelupyyntöön';
 $lang['payment_gateway_enable_paypal']                  = 'Ota PayPal-maksut käyttöön';
 $lang['project_member']                                 = 'Projektin jäsen';
 $lang['contract_notes']                                 = 'Huomautuksia';
@@ -3551,7 +3551,7 @@ $lang['not_customer_uploaded_file']                                  = 'New File
 
 # Version 2.2.1
 $lang['customer_files_info_message'] = 'Asiakkaaseen liitettyjen projektien ja tehtävien tiedostoja ei ole esitetty tässä taulukossa.';
-$lang['ticket_import_reply_only']    = 'Yritä tuoda vain varsinainen tikettivastaus (ilman lainattua/välitettyä viestiä)';
+$lang['ticket_import_reply_only']    = 'Yritä tuoda vain varsinainen palvelupyyntö (ilman lainattua/välitettyä viestiä)';
 $lang['learn_more']                  = 'Opi lisää';
 $lang['sales_item']                  = 'Item';
 
@@ -3773,7 +3773,7 @@ $lang['permission_delete_milestones']                         = 'Poista virstanp
 $lang['add_timesheet'] 										  = 'Lisää työaikalomake';
 $lang['submit_button_bg_color']                               = 'Lähetä-painikkeen taustaväri';
 $lang['submit_button_text_color']                             = 'Lähetä-painikkeen taustateksti';
-$lang['automatically_assign_ticket_to_first_staff_responding'] = 'Määritetäänkö tiketti automaattisesti ensimmäiselle vastauksen lähettäneelle henkilökunnalle?';
+$lang['automatically_assign_ticket_to_first_staff_responding'] = 'Määritetäänkö palvelupyyntö automaattisesti ensimmäiselle vastauksen lähettäneelle henkilökunnalle?';
 
 # Version 2.9.1
 $lang['contract_signed_not_all_fields_editable'] = 'Tämä sopimus on allekirjoitettu, joten kaikkia kenttiä ei voi muokata ennen kuin allekirjoitus on poistettu.';
@@ -3786,21 +3786,21 @@ $lang['lead_name_prefix_help']                   = 'Jokaisen lomakkeen kautta lu
 
 # Version 2.9.2
 $lang['open_google_map']                                    = 'Open in Google Map';
-$lang['milestone_start_date']                               = 'Start Date';
+$lang['milestone_start_date']                               = 'Aloituspäivä';
 $lang['send_reminder_for_completed_but_not_billed_tasks']   = 'Send an email reminder of billable tasks completed but not billed';
 $lang['staff_to_notify_completed_but_not_billed_tasks']     = 'Select which staff members you want to receive the reminder';
 $lang['reminder_for_completed_but_not_billed_tasks_days']   = 'Select days of the week reminder should be sent';
-$lang['notifications']                                      = 'Notifications';
-$lang['merged']                                             = 'Merged';
+$lang['notifications']                                      = 'Ilmoitukset';
+$lang['merged']                                             = 'Yhdistetty';
 $lang['ticket_merged_notice']                               = 'This ticket is merged into the ticket with ID';
 $lang['view_primary_ticket']                                = 'View primary ticket';
-$lang['merge_tickets']                                      = 'Merge Tickets';
+$lang['merge_tickets']                                      = 'Yhdistä palvelupyynnöt';
 $lang['primary_ticket']                                     = 'Primary Ticket';
 $lang['primary_ticket_status']                              = 'Primary Ticket Status';
 $lang['tickets_merged']                                     = 'Tickets Merged Successfully';
 $lang['cannot_merge_into_merged_ticket']                    = 'Ticket that is merged into another ticket cannot be used as primary ticket';
-$lang['merge_ticket_ids_field_label']                       = 'Merge Ticket #';
-$lang['merge_ticket_ids_field_placeholder']                 = 'example: 5 or 5,6';
+$lang['merge_ticket_ids_field_label']                       = 'Yhdistä palvelupyynnöt #';
+$lang['merge_ticket_ids_field_placeholder']                 = 'esim: 5 tai 5,6';
 $lang['cannot_merge_tickets_with_ids']                      = 'Ticket %s is already merged in another ticket';
 $lang['ticket_merged_tickets_header']                       = 'This ticket contains %s tickets that are merged';
 $lang['batch_payments_table_invoice_number_heading']        = 'Invoice Number';
@@ -3815,7 +3815,7 @@ $lang['batch_payments']                                     = 'Batch Payments';
 $lang['batch_payment_added_successfully']                   = 'You have successfully added %s payments';
 $lang['batch_payments_send_invoice_payment_recorded']       = 'Do not send invoice payment recorded email to customer contacts';
 $lang['invoice_batch_payments']                             = 'Batch Payment';
-$lang['staff_is_currently_replying']                        = '%s is currently replying to ticket.';
+$lang['staff_is_currently_replying']                        = '%s on vastaamassa parhaillaan palvelupyyntöön.';
 
 # Versio 2.9.4
 $lang['permission_view_timesheet_report'] 					= 'Näytä työaikataulujen raportti';
@@ -3823,16 +3823,16 @@ $lang['timesheets_overview_all_members_notice_permission'] 	= 'Kaikkien henkilö
 $lang['show_project_on_proposal'] 							= 'Näytä projektin nimi ehdotuksessa';
 $lang['ticket_reports_staff'] 								= 'Henkilöstön jäsen';
 $lang['ticket_reports_total_assigned'] 						= 'Myönnettyjen lippujen kokonaismäärä';
-$lang['ticket_reports_open_tickets'] 						= 'Avoimet tiketit';
-$lang['ticket_reports_closed_tickets'] 						= 'Suljetut tiketit';
-$lang['ticket_reports_replies_to_tickets'] 					= 'Vastaukset tiketeihin';
+$lang['ticket_reports_open_tickets'] 						= 'Avoimet palvelupyynnöt';
+$lang['ticket_reports_closed_tickets'] 						= 'Suljetut palvelupyynnöt';
+$lang['ticket_reports_replies_to_tickets'] 					= 'Vastaukset palvelupyyntöihin';
 $lang['ticket_reports_average_reply_time'] 					= 'Keskimääräinen vastausaika';
-$lang['home_tickets_report'] 								= 'Henkilökunnan tikettiraportti';
-$lang['ticket_reports_average_reply_time_help'] 			= "Myönnettyjen tikettien keskimääräinen vastausaika.";
+$lang['home_tickets_report'] 								= 'Henkilökunnan palvelupyyntöjen raportti';
+$lang['ticket_reports_average_reply_time_help'] 			= "Myönnettyjen palvelupyyntöjen keskimääräinen vastausaika.";
 $lang['created_by'] 										= "Luonut";
 
-$lang['staff_related_ticket_notification_to_assignee_only'] = 'Lähetä henkilökuntaan liittyvät tiketti-ilmoitukset vain tiketin vastaanottajalle';
-$lang['staff_related_ticket_notification_to_assignee_only_help'] = 'Jos tämä vaihtoehto on asetettu arvoon Kyllä ja tiketillä ei ole vastaanottajaa, ilmoitus lähetetään kaikelle henkilökunnalle, joka kuuluu tikettiosastoon';
+$lang['staff_related_ticket_notification_to_assignee_only'] = 'Lähetä henkilökuntaan liittyvät palvelupyyntö-ilmoitukset vain tiketin vastaanottajalle';
+$lang['staff_related_ticket_notification_to_assignee_only_help'] = 'Jos tämä vaihtoehto on asetettu arvoon Kyllä ja tiketillä ei ole vastaanottajaa, ilmoitus lähetetään kaikelle henkilökunnalle, joka kuuluvat palvelupyyntöjen ryhmään';
 $lang['import_expenses'] = 'Kulujen tuonti';
 $lang['show_pdf_signature_proposal'] = 'Näytä PDF-allekirjoitus ehdotuksessa';
 $lang['enable_honeypot_spam_validation'] = 'Ota käyttöön Honeypot-roskapostin validointi';
@@ -3842,10 +3842,10 @@ $lang['contracts_view_marked_as_signed'] = 'Merkitty allekirjoitetuksi';
 $lang['contracts_view_signed']           = 'allekirjoitettu';
 $lang['contracts_view_not_expired']      = 'Ei vanhentunut';
 $lang['contract_information']            = 'Sopimusta koskevat tiedot';
-$lang['receipt']                         = 'Kuitti';
+$lang['receipt']                         = 'Kuitti/Lasku';
 $lang['search_proposals']                = 'Ehdotusten haku';
 $lang['search_estimates']                = 'Etsi arvioita';
-$lang['quick_create']                    = 'Pikaluo';
+$lang['quick_create']                    = 'Nopea luonti';
 
 # Version 3.1.2
 $lang['allow_non_admin_members_to_delete_tickets_and_replies'] = 'Allow non-admin staff members to delete tickets and replies';
